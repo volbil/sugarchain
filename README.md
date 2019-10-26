@@ -2,6 +2,7 @@ Sugarchain Yumekawa
 ===================
 
 [![Build Status](https://travis-ci.com/cryptozeny/sugarchain-v0.16.3.svg?token=KrYycpAcc7g95pAVRykP&branch=master-v0.16.3)](https://travis-ci.com/cryptozeny/sugarchain-v0.16.3)
+![GitHub All Releases](https://img.shields.io/github/downloads/sugarchain-project/sugarchain/total)
 
 The meaning of Yumekawa
 -----------------------
@@ -69,7 +70,7 @@ strip ./src/sugarchain-tx && \
 strip ./src/test/test_sugarchain
 ```
 
- * (optional) After make, update binary docs (manpages) using help2man `.1` files
+ * (optional) After bump version on `configure.ac`, update binary docs (manpages) using help2man `.1` files
 
 ```bash
 make -j$(nproc) && ./contrib/devtools/gen-manpages.sh
